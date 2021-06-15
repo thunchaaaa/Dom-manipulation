@@ -6,7 +6,7 @@ var outputTableBody=document.getElementById('outputTableBody')
 var submitData=document.getElementById('submitData')
 
 
-function Document(index){
+function addData(index){
     let row =document.createElement('tr')
     let cell=document.createElement('th')
     let img =document.createElement('img')
@@ -35,6 +35,5 @@ function Document(index){
 var index=2
 submitData.addEventListener('click',(event)=>{
     
-    Document(index++)
+    addData(index++)
 })
-© 2021 GitHub, Inc.
