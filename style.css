@@ -1,58 +1,25 @@
-.container {
-    height: 10px;
-    width: 100%;
-    position: relative;
-}
-.logo {
-    width: 150px;
-    height: 150px;
-}
-.navbar {
-    margin: auto;
-    width: 100%;
-    padding: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0%;
-}
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 15px;
-}
-.navbar ul li a {
-    font-size: 17px;
-    text-decoration: none;
-    color: #8B4513;
-}
-
-.flex-container {
-    padding-left: 1.5%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    text-align: left;
-}
-.list-group-flush li {
-    border:none;
-    font-size:16px;
-}
- h1 {
+h1 {
     text-align: center;
-    color: #FF0066	;
-    font-size: 55px;
+    color: black;
+    font-size: 30px;
     padding-top: 30px;
     padding-left: 5%;
 }
-.footer{
-    margin-top:25px;
-    font-size:12px;
-    padding-top: 110%;
-    padding-bottom: 1%;
+.btn.btn.btn-primary{
+    background-color: ghostwhite;
+    border-radius: 15px;
+    color: black;
+    border: 2px solid blue;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    width: 500px;
     text-align: center;
+    margin-left: 75%;
+    margin-top: 5px;
+    margin-bottom: 7%;
+}
+.btn :hover{
+    background-color: ghostwhite;
+    color:white;
 }
 
-.card p {
-    color: #8B4513;
-}
