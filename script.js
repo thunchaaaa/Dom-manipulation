@@ -1,7 +1,7 @@
-var inputName =document.getElementById('name')
-var inputDes=document.getElementById('des')
-var inputPic=document.getElementById('pic')
-var inputPri=document.getElementById('pri')
+var inputFlower =document.getElementById('Flower')
+var inputdes=document.getElementById('des')
+var inputLink=document.getElementById('Link')
+var inputp=document.getElementById('p')
 var outputTableBody=document.getElementById('outputTableBody')
 var submitData=document.getElementById('submitData')
 
@@ -15,17 +15,17 @@ function addData(index){
     cell.innerHTML=index
     row.appendChild(cell)
     cell=document.createElement('td')
-    cell.innerHTML=inputName.value
+    cell.innerHTML=inputFlower.value
     row.appendChild(cell)
     cell=document.createElement('td')
-    cell.innerHTML=inputDes.value
+    cell.innerHTML=inputdes.value
     row.appendChild(cell)
     cell=document.createElement('td')
-    cell.innerHTML=pic.value
-    img.src=inputPic.value
+    cell.innerHTML=Link.value
+    img.src=inputLink.value
     row.appendChild(img)
     cell=document.createElement('td')
-    cell.innerHTML=inputPri.value
+    cell.innerHTML=inputp.value
     row.appendChild(cell)
     cell=document.createElement('td')
     cell.innerHTML=`<button>Add to Cart</button>`
